@@ -30,7 +30,7 @@ The **Quantum Problem Solver** is an innovative tool built with **Next.js**, des
 ## Features
 
 - **Define Quantum Problems**: Choose from various quantum computing problem types (e.g., Optimization, Cryptography, Quantum Simulation) and customize objectives and application details.
-- **Quantum Circuit Generation**: Automatically generate quantum circuit designs via the **Spark API** and display them in an interactive, structured format.
+- **Quantum Circuit Generation**: Automatically generate quantum circuit designs via the **Spark Engine API** and display them in an interactive, structured format.
 - **Dynamic UI**: Features an intuitive user interface with responsive components, collapsible sections, and loading indicators for real-time feedback.
 
 ## Prerequisites
