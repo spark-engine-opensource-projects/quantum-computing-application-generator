@@ -1,7 +1,3 @@
-Here is the enhanced version of the README for the **Quantum Problem Solver with Circuit Design** project, styled similarly to the original README you provided:
-
----
-
 ![GitHub Banner](./public/github-banner.png)
 
 # Quantum Problem Solver with Circuit Design
@@ -138,7 +134,3 @@ This project is licensed under the MIT License. See the [LICENSE](./LICENSE) fil
 
 - **[Next.js](https://nextjs.org/)** for providing the framework to build this app.
 - **[Spark Engine](https://sparkengine.ai)** for their quantum circuit generation API.
-
----
-
-This enhanced README mirrors the polished style of your original project's documentation, ensuring consistency across both projects while maintaining clear and professional communication of essential details. Let me know if you need any more changes!
