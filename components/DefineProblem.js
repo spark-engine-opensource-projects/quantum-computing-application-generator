@@ -93,7 +93,7 @@ const DefineProblem = ({ onsubmit }) => {
     };
 
     return (
-        <div className="max-w-2xl mx-auto p-6 bg-gray-100 rounded-lg shadow-lg">
+        <div className="mt-4 max-w-2xl mx-auto p-6 bg-white rounded-lg shadow-lg">
             <h1 className="text-2xl font-bold mb-4">Define Your Quantum Problem</h1>
 
             {errorMessage && (
@@ -300,18 +300,19 @@ const DefineProblem = ({ onsubmit }) => {
                         Describe your application in your own words:
                     </label>
                     <textarea
-                        id="applicationDescription"
-                        value={applicationDescription}
-                        onChange={(e) => setApplicationDescription(e.target.value)}
-                        className="w-full border rounded-lg py-2 px-3"
-                        rows="4"
-                    />
+    id="applicationDescription"
+    value={applicationDescription}
+    onChange={(e) => setApplicationDescription(e.target.value)}
+    className="w-full border bg-gray-100 rounded-lg py-2 px-3"
+    rows="4"
+    style={{ userSelect: 'none', resize: 'none' }}
+/>
                 </div>
 
                 {/* Submit Button */}
                 <button
                     type="submit"
-                    className="bg-blue-500 text-white py-2 px-4 rounded-lg hover:bg-blue-600 disabled:opacity-50"
+                    className="bg-black text-white py-2 px-4 rounded-lg hover:bg-gray-800 disabled:opacity-50"
                     disabled={loading || !problemType || !objective || !accuracyVsSpeed}
                 >
                     {loading ? 'Generating...' : 'Submit'}
